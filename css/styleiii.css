@@ -1,0 +1,87 @@
+#principa{
+    background-image: url(../img/🐊.jfif);
+   background-repeat: no-repeat;
+    /*background-position: 60px 70px ;*/
+    /*background-position: 50% 12%;*/
+    /*background-position: left top;*/
+    /*background-position: left center;*/
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background: url(../img/🐊.jfif) no repeat center center fixed;
+    background-size: cover;
+
+
+
+    
+    background-color: rgb(209, 179, 143);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion {
+    width: 100px;
+    margin-top: 60px;
+    background: rgb(211, 219, 247);
+
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.Menu>li {
+    /*position: relative;*/
+    display: inline-block;
+}
+
+.Menu>li {
+    display: block;
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Open sans";
+    text-decoration: none;
+
+}
+
+.Menu li a:hover {
+    color: rgb(255, 255, 255);
+    transition: all 3s;
+
+}
+
+.Menu:hover>li ul {
+    visibility: visible;
+
+}
+
+/*submenu*/
+.submenu {
+    position: absolute;
+    background: #575555;
+    visibility: hidden;
+    width: 10%;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    font-family: "Open sans";
+    text-decoration: none;
+}
+
+.Menu li a:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
